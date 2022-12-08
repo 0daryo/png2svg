@@ -199,3 +199,12 @@ func (pi *PixelImage) CoverBox(bo *Box, pink bool, optimizeColors bool) {
 		}
 	}
 }
+
+func (pi *PixelImage) CoverEmptyBox(bo *Box) {
+	// Mark all covered pixels in the PixelImage
+	for y := bo.y; y < (bo.y + bo.h); y++ {
+		for x := bo.x; x < (bo.x + bo.w); x++ {
+			pi.pixels[y*pi.w+x].covered = true
+		}
+	}
+}
