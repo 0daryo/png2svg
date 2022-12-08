@@ -1,4 +1,4 @@
-module github.com/xyproto/png2svg
+module github.com/0daryo/png2svg
 
 require github.com/xyproto/tinysvg v1.1.0
 

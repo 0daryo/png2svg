@@ -9,7 +9,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/xyproto/png2svg"
+	"github.com/0daryo/png2svg"
 )
 
 func init() {

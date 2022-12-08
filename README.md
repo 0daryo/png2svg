@@ -1,4 +1,4 @@
-# png2svg ![Build](https://github.com/xyproto/png2svg/workflows/Build/badge.svg) [![GoDoc](https://godoc.org/github.com/xyproto/png2svg?status.svg)](http://godoc.org/github.com/xyproto/png2svg) [![Go Report Card](https://goreportcard.com/badge/github.com/xyproto/png2svg)](https://goreportcard.com/report/github.com/xyproto/png2svg)
+# png2svg ![Build](https://github.com/0daryo/png2svg/workflows/Build/badge.svg) [![GoDoc](https://godoc.org/github.com/0daryo/png2svg?status.svg)](http://godoc.org/github.com/0daryo/png2svg) [![Go Report Card](https://goreportcard.com/badge/github.com/0daryo/png2svg)](https://goreportcard.com/report/github.com/0daryo/png2svg)
 
 Go module and command line utility for converting small PNG images to SVG Tiny 1.2.
 
@@ -77,7 +77,7 @@ The Glenda bunny is from [9p.io](https://9p.io/plan9/glenda.html).
 
 For Go 1.17 or later:
 
-    go install github.com/xyproto/png2svg/cmd/png2svg@latest
+    go install github.com/0daryo/png2svg/cmd/png2svg@latest
 
 ## Example usage
 
